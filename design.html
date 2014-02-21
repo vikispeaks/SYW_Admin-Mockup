@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Design</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.minicolors.css">
+    <link href="css/style.css" rel="stylesheet"> 
+  </head>
+  <body>
+
+      <nav class="navbar navbar-default custom-nav" role="navigation">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="header-nav">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Home</a></li>
+              <li class="active"><a href="javascript:void(0);">Design</a></li>
+              <li><a href="roles.html">Roles</a></li>
+              <li><a href="apps.html">Apps</a></li>
+              <li><a href="#">Products</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-design">
+        <p class="fontsize18">CUSTOMIZE</p>
+        <span class="fontsize16">See your changes instantly; they're not saved until you click "Save changes."</span>
+        <div class="form-group">
+              <p class="labeltext">Font color</p>
+              <p class="colorswatch fontcolor"><p>
+              <input type="text" id="font-color-select" class="form-control demo" data-control="hue" value="#ffffff">
+        </div>
+        <div class="form-group">
+              <p class="labeltext">Header color</p>
+              <p class="colorswatch headercolor"><p>
+              <input type="text" id="header-color-select" class="form-control demo" data-control="hue" value="#ffffff">
+        </div>
+        <div class="button-group">
+          <p class="labeltext">Background</p>
+          <div class="btn-group">
+            <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+              Change Background <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="javascript:void(0)">Select Color</a></li>
+              <li><a href="javascript:void(0)">Select Image</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="form-group backgroundcolorform">
+              <p class="labeltext"></p>
+              <p class="colorswatch backgroundcolor"><p>
+              <input type="text" id="background-color-select" class="form-control demo" data-control="hue" value="#ffffff">
+        </div>
+
+        <div class="form-group backgroundimageform">
+              <p class="labeltext"></p>
+              <p class="colorswatch backgroundimage"><p>              
+        </div>
+
+        <div class="savecancelbtn">
+        <button type="button" class="btn btn-default apps-btn-save">Save Changes</button>
+        <button type="button" class="btn btn-default apps-btn-cancel">Cancel</button>
+        </div>
+      </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.minicolors.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>

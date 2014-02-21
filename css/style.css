@@ -1,0 +1,55 @@
+body{padding: 20px;font-family: "Cambria";}
+div.container-design{width:1024px;margin: 0 auto; min-height:580px;border: 1px solid #ccc;margin-top:50px;padding:20px;}
+.custom-nav{max-width: 1024px;margin: 0 auto;}
+div.form-group{clear: both;padding-top: 15px;}
+div.form-group div.minicolors{width: 175px;}
+div.form-group div.minicolors{float:right;}
+div.form-group p{display: inline;float: left;margin-right: 100px;}
+div.form-group p.colorswatch{height: 100px;width: 100px;background-color: #FFF;border-radius: 5px;border:1px solid #ccc;}
+div.form-group p.labeltext{width: 100px;padding: 5px;}
+div.button-group{padding-top: 125px;}
+div.button-group p.labeltext{float: left;width: 100px;padding: 5px;}
+div.button-group div{margin-left: 100px;}
+div.button-group div button.btn{width: 150px;}
+div.form-group p.colorswatch.backgroundimage{background: url("../images/upload.png") no-repeat;border:0px;cursor:pointer;}
+
+#applist{width: 100%;overflow: hidden;padding: 2%;}
+#applist .item{width: 45%;float: left;margin: 2%;cursor:pointer;}
+#applist .item div p{margin: 0px;}
+#applist .item div.app-image{float: left; padding-right: 12px;}
+button.apps-btn-save{margin-left: 400px;}
+div.savecancelbtn{display: inline-block;width: 100%;margin-top: 20px;}
+.fontsize18{font-size: 18px;}
+.fontsize16{font-size: 16px;}
+.fontbold{font-weight: bold;}
+#applist .item div.app-image p{margin: 10px 0px 0px 7px;}
+#applist .item div.app-desc p{padding-bottom: 5px;}
+
+div.home-top-content{float:left;width:100%;}
+div.home-top-content-left{float:left;width:60%;}
+div.home-top-content-left div{width:90%;background:#ccc;height:275px;}
+
+
+div.home-top-content-right{float:left;width:40%;}
+div.home-top-content-right div{width:100%%;background:#ccc;height:275px;}
+
+div#piechartcontainer,div#linechartcontainer, div#barchartcontainer{max-width:300px;height:290px;margin-top: 5%;width:300px;float:left;}
+div#linechartcontainer, div#barchartcontainer{margin-left:40px;}
+
+div.home-chart-content{float:left;}
+.clr{clear:both;}
+
+
+#adminlist{width: 100%;overflow: hidden;padding: 2%;}
+#adminlist .item{width: 20%;float: left;margin: 1% 2% 6% 2%;cursor: pointer;}
+div.add-admin, div.mod-admin{border:1px solid #CCC;background: #EEE;}
+div.add-admin img{margin: 10px 0px 0px 45px;}
+div.add-admin p{text-align: center;font-size: 16px;padding: 2%;}
+div.mod-admin img{padding: 15px 0px 15px 30px;}
+#adminlist .item .adminname{text-align: center;margin: 0px;}
+img.removeclose{float:right;}
+
+input.searchtext{background:#FFF;border: 1px solid #CCC;padding: 5px;margin-right: 25px;}
+p.invitelist{margin: 15px 0 0 0;border-bottom: 1px solid #999;width: 55%;padding-bottom: 10px;margin-bottom: 15px;}
+div.listresults{background: #ccc;width: 40%;padding: 3px 5px;border-radius: 5px;margin-bottom:5px;cursor:pointer;}
+div.listresults img{float:right;}
