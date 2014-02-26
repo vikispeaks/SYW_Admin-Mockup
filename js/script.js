@@ -4,15 +4,6 @@ $(document).ready( function() {
     $('div.backgroundimageform').hide();
             
             $('.demo').each( function() {
-                //
-                // Dear reader, it's actually very easy to initialize MiniColors. For example:
-                //
-                //  $(selector).minicolors();
-                //
-                // The way I've done it below is just for the demo, so don't get confused 
-                // by it. Also, data- attributes aren't supported at this time...they're 
-                // only used for this demo.
-                //
                 $(this).minicolors({
                     animationSpeed: 50,
                     animationEasing: 'swing',
@@ -81,6 +72,25 @@ $(document).ready( function() {
            
         });
 
+        
+             
+     var pathname = window.location.pathname;
+     if((pathname.indexOf('home') > -1) || (pathname.indexOf('dashboard') > -1)){
+        $('ul.nav.navbar-nav li').eq( 0 ).addClass("active");
+     }
+     else if(pathname.indexOf('design') > -1){
+        $('ul.nav.navbar-nav li').eq( 1 ).addClass("active");
+     }
+     else if(pathname.indexOf('role') > -1){
+        $('ul.nav.navbar-nav li').eq( 2 ).addClass("active");
+     }
+     else if(pathname.indexOf('app') > -1){
+        $('ul.nav.navbar-nav li').eq( 3 ).addClass("active");
+     }
+     else if(pathname.indexOf('product') > -1){
+        $('ul.nav.navbar-nav li').eq( 4 ).addClass("active");
+     }     
 
             
-        });
+});
+
