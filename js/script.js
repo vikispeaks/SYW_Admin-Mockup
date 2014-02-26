@@ -87,19 +87,19 @@ $(document).ready( function() {
         $('ul.nav.navbar-nav li').removeClass("active");
         $('ul.nav.navbar-nav li').eq( 0 ).addClass("active");
      }
-     else if(pagename == 'design') > -1){
+     else if(pagename == 'design'){
         $('ul.nav.navbar-nav li').removeClass("active");
         $('ul.nav.navbar-nav li').eq( 1 ).addClass("active");
      }
-     else if(pagename == 'roles') > -1){
+     else if(pagename == 'roles'){
         $('ul.nav.navbar-nav li').removeClass("active");
         $('ul.nav.navbar-nav li').eq( 2 ).addClass("active");
      }
-     else if(pagename == 'app') > -1){
+     else if(pagename == 'app'){
         $('ul.nav.navbar-nav li').removeClass("active");
         $('ul.nav.navbar-nav li').eq( 3 ).addClass("active");
      }
-     else if(pagename == 'product') > -1){
+     else if(pagename == 'product'){
         $('ul.nav.navbar-nav li').removeClass("active");
         $('ul.nav.navbar-nav li').eq( 4 ).addClass("active");
      }     
